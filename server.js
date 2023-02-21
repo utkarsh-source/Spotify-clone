@@ -8,9 +8,9 @@ const app = express();
 
 const PORT = process.env.PORT || 5000;
 
-let client_id = '9949dfb316be48d1a9af31cb23fddf37';
-let client_secret = 'a823e08c14f84c838806355acd9c5833'
-let redirect_uri = 'http://localhost:5000/callback';
+let client_id = "9949dfb316be48d1a9af31cb23fddf37";
+let client_secret = "a823e08c14f84c838806355acd9c5833";
+let redirect_uri = "https://spotify-clone-ivory-nine.vercel.app/";
 let scope = [
       "user-read-private",
       "user-read-email",
